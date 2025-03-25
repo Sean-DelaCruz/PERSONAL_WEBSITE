@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+    font-family: Georgia;
+    color: #52ab98;
+}
+
+* {
+    background-color: white;}
+nav {
+    border: 2px solid blue;}
+ul {
+    border: 2px solid black;}
+li {
+    border: 2px solid green;}
+a {
+    background-color: #52ab98;}
+
+nav {
+    border: 1px solid #333;
+    width: 50%;
+    margin: 1rem auto;
+    background-color: #eee;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: #183a1d;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+nav a:focus {
+    background-color: #fefbe9;
+    color: black;
+}
+
+nav a:hover {
+    background-color: #fefbe9;
+    color: #FF583D;
+}
+
+

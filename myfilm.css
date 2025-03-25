@@ -1,0 +1,36 @@
+/* Add these new styles */
+.film-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    gap: 30px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.show-poster {
+    flex: 0 0 auto;
+}
+
+.show-poster img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.show-info {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+}
+
+.show-description {
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+.video-container {
+    margin-top: 20px;
+}
