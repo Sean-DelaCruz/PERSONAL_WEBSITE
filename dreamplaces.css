@@ -69,3 +69,17 @@
     border-radius: 5px;
 }
 
+.world-map-container {
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.world-map-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
