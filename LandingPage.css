@@ -6,27 +6,39 @@ body {
 
 nav {
     background-color: #f2f2f2;
-    padding: 15px 0;
+    padding: 10px 0;
     margin-bottom: 20px;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
 nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+    flex-wrap: nowrap;
 }
 
 nav li {
-    display: inline;
+    display: inline-block;
 }
 
 nav a {
     text-decoration: none;
     color: #52ab98;
-    padding: 8px 16px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+nav a i {
+    font-size: 14px;
 }
 
 nav a:hover {
